@@ -1,4 +1,4 @@
-# README for BRCA Data Processing Scripts
+# README for DeepMethyGene
 
 ## Overview
 
