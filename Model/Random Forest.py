@@ -64,7 +64,7 @@ BRCA_exp.index=BRCA_exp_index
 need_BRCA_exp_t=BRCA_exp.T
 gene_list=pd.read_csv("../gene_list.csv")
 
-for i in tqdm(list(gene_list["x"])[6767:7000]):
+for i in tqdm(list(gene_list["x"])):
     gene_name=promoter_range.loc[promoter_range["gene name"]==i]
     need_BRCA_meth_range=BRCA_meth_range.loc[BRCA_meth_range["seqnames"]==list(gene_name["chrID"])[0]]
     need_BRCA_meth_range_index=need_BRCA_meth_range["Unnamed: 0"]
