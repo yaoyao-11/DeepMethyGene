@@ -7,8 +7,8 @@ we propose DeepMethyGene, employing conventional deep learning methods like CNN 
 ## Frame work of DeepMethyGene 
 
 This diagram illustrates the framework of DeepMethyGene. Input Data: The input is gene expression data from 13,892 genes. The number of methylations between the left and right 1Mb of different gene expression sites is different.
+<img width="960" alt="DeepMethyGene" src="https://github.com/yaoyao-11/DeepMethyGene/assets/84023156/d07840dc-6f82-47db-a29e-b83f8968e0b3">
 
-![DeepMethyGene](C:\Users\40986\Desktop\乱七八糟\甲基化\DeepMethyGene.png)
 
 ## Data Files Description
 
