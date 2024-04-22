@@ -24,7 +24,7 @@ To run the scripts and generate the required `.csv` files, follow these steps:
 
 1. Ensure that all required libraries, such as `GenomicRanges` and `glmnet`, are installed in your R environment.
 2. Run the script `function.study.name.download_files` by sourcing it in your R console or script environment.
-3. The scripts will automatically process the downloaded data and save them in the current working directory as `BRCA_data_meth.csv` and `BRCA_data_meth_range.csv`.
+3. The scripts will automatically process the downloaded data and save them in the current working directory as  `BRCA_data_meth.csv` ,`BRCA_data_meth_range.csv`, `need_gene_exp_13988(13982).csv`.
 
 ## Dependencies
 
