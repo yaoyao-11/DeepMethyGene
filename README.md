@@ -2,7 +2,7 @@
 
 ## Overview
 
-we propose DeepMethyGene, employing conventional deep learning methods like CNN with variable convolutional kernels and ResNet blocks for prediction. Referencing geneEXPLORE, DeepMethyGene was used to predict the expression levels of 13,982 genes in TCGA breast cancer data, achieving a five-fold cross-validation result of 0.64.
+We propose DeepMethyGene, employing conventional deep learning methods like CNN with variable convolutional kernels and ResNet blocks for prediction. Referencing geneEXPLORE, DeepMethyGene was used to predict the expression levels of 13,982 genes in TCGA breast cancer data, achieving a five-fold cross-validation result of 0.64.
 
 ## Frame work of DeepMethyGene 
 
