@@ -7,14 +7,15 @@ We propose DeepMethyGene, employing conventional deep learning methods like CNN 
 ## Frame work of DeepMethyGene 
 
 This diagram illustrates the framework of DeepMethyGene. Input Data: The input is gene expression data from 13,892 genes. The number of methylations between the left and right 1Mb of different gene expression sites is different.
-<img width="960" alt="DeepMethyGene" src="https://github.com/yaoyao-11/DeepMethyGene/assets/84023156/d07840dc-6f82-47db-a29e-b83f8968e0b3">
+<img width="960" alt="DeepMethyGene" src="https://github.com/yaoyao-11/DeepMethyGene/assets/84023156/ffc449a7-678c-42b7-abdd-d6eded50914b">
+
 
 
 ## Data Files Description
 
 ### need_gene_exp_13988(13982).csv
 
-This file contains gene expression values needed for the analysis. It includes data for 13,988 genes, with 6 genes duplicated within the dataset. To ensure accuracy, the duplicates are resolved by selecting the gene with the most reliable expression results based on the context of the analysis. This selection process is crucial for maintaining the integrity and precision of the gene expression analysis.
+This file has gene expression data for 13,988 genes, including 6 duplicates. 
 
 ### BRCA_data_meth.csv
 
