@@ -67,10 +67,10 @@ class AdaptiveRegressionCNN(nn.Module):
     def __init__(self, input_size):
         super(AdaptiveRegressionCNN, self).__init__()
 
-        # out_channels_conv1 = min(64, input_size // 10)
-        # out_channels_conv2 = min(32, input_size // 20)
-        out_channels_conv1=64
-        out_channels_conv2=32
+        out_channels_conv1 = min(64, input_size // 10)
+        out_channels_conv2 = min(32, input_size // 20)
+        # out_channels_conv1=64
+        # out_channels_conv2=32
 
         self.conv1 = nn.Conv1d(in_channels=1, out_channels=out_channels_conv1, kernel_size=3, padding=1)
         self.resblock1 = ResidualBlock(out_channels_conv1)  # 第一个残差块
