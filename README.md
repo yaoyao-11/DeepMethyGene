@@ -88,7 +88,7 @@ After preparing the data files, you can proceed to run various predictive models
 
 For further assistance or any inquiries related to the scripts and their usage, please do not hesitate to contact:
 
-- email:18853818507@163.com
+- email:yanyuyao69@gmail.com
 
 Feel free to reach out with any questions or if you need support with the implementation or troubleshooting of the provided scripts.
 
